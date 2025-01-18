@@ -4,10 +4,14 @@
 
 Bubble sort is going through a list, comparing elements in the list that are adjacent to each other, and swapping them if they are in the wrong order.
 
-We will need 3 functions:
 
 # Table of Contents
-1. [printValues](#values)
+
+We will need 3 functions:
+|Table of Contents|
+|--------|--------|
+| [printValues](#values) | test |
+| test | test |
 2. [sort](#sort)
 3. [main](#main)
 
