@@ -7,9 +7,9 @@ Bubble sort is going through a list, comparing elements in the list that are adj
 We will need 3 functions:
 
 # Table of Contents
-1. [printValues] (#values)
-2. [sort] (#sort)
-3. [main] (#main)
+1. [printValues](#values)
+2. [sort](#sort)
+3. [main](#main)
 
 ## printValues
 
