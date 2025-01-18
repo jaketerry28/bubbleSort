@@ -2,52 +2,25 @@
 
 **What is Bubble Sort?**
 
-Bubble sort is going through a list, comparing elements in the list that are adjacent to each other, and swapping them if they are in the wrong order.
-
+Bubble sort is a sorting algorithim where the largest values will "bubble" to the top. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort.
 
 # Table of Contents
 
 We will need 3 functions:
+
 | Function | Description |
 |----------|-------------|
-| [printValues](#values) | test |
-| test | test |
-2. [sort](#sort)
-3. [main](#main)
+| [printValues](#values) | Prints out array at each step |
+| [sort](#sort) | Compares two values, swaps if conditions satisfy  |
+| [main](#main) | Executes all latter functions |
 
 ## printValues
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+constant MAX is the max lenght of array
+function printValues(array):
+    
+```
 
 
 ## sort
@@ -62,125 +35,4 @@ function sort (array):
                 swap array[j] with array[j+1]
                 printArray(array)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## swap
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## main
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

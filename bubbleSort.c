@@ -1,14 +1,13 @@
+// import standard input output header
 #include <stdio.h>
 
-void printValues(int*){
-    printf("")
-}
-void sort(int*){
+// array is a constant size of 9
+#define SIZE 9
 
-}
-void swap(int*, int*){
-
-}
+// function declarations 
+void printValues(int* values);
+void sort(int*);
+void swap(int*, int*);
 
 int main(){
 	int values[] = {7, 3, 9, 4, 6, 1, 2, 8, 5};
@@ -28,3 +27,14 @@ int main(){
 
 	return(0);	
 } // end main
+
+// function that prints values of array
+void printValues(int*){
+    int i = 0;
+    // step thru array
+    for (i = 0; i < SIZE; i++){
+        printf("%d) %d \n", i, values[i]);
+    } // end for
+} // end printValues
+
+
