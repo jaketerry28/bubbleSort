@@ -8,9 +8,8 @@ Bubble sort is going through a list, comparing elements in the list that are adj
 # Table of Contents
 
 We will need 3 functions:
-|Table of Contents|
 |--------|--------|
-| [printValues](#values) | test |
+|[printValues](#values)|test|
 | test | test |
 2. [sort](#sort)
 3. [main](#main)
