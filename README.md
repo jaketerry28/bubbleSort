@@ -2,8 +2,28 @@
 
 **What is Bubble Sort?**
 
-    Bubble sort is iterating through a list, comparing elements in the list that are adjacent to each other, and swapping them if they are in the wrong order.
+Bubble sort is going through a list, comparing elements in the list that are adjacent to each other, and swapping them if they are in the wrong order.
 
+We will need 3 functions:
+
+### Test {#val}
+
+test
+
+
+test
+
+
+
+etst
+
+
+test
+
+
+[Test](#val)
+123
+### Done
 
 ## printValues
 
