@@ -58,7 +58,7 @@ fuction swap (integer num1, integer num2):
 
 To sort the array, a compare is conducted, then a swap is performed if conditions are met. Here, this function checks if a value is greater than the adjacent value to its right. If this condition is met, a swap is performed. This function will continue to loop until the entire array has been sorted.
 
-Two integer variables, *i* and *j*, are created to step through the array. Variable *j* steps through the entire array, checking at each position is a swap is required. If the condition is met, the swap then printValue functions are called. Once *j* has stepped through the array fully, *i* will increment by 1 and the whole process starts over until *i* has stepped through the entire array. 
+Two integer variables, *i* and *j*, are created to step through the array. Variable *j* steps through the entire array, checking at each position if a swap is required. If the condition is met, the swap then printValue functions are called. Once *j* has stepped through the array fully, *i* will increment by 1 and the whole process starts over until *i* has stepped through the entire array. 
 
 ```
 
