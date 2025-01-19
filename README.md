@@ -5,6 +5,7 @@
 | Function | Description |
 |----------|-------------|
 | [Overview](#overview)| Objectives and plan |
+| [printValues](#value) | test |
 | [printValues](#values) | Prints out array when called |
 | [swap](#swap) | Swap two adjacent values |
 | [sort](#sort) | Compares two values, calls swap function if needed  |
