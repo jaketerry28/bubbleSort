@@ -27,7 +27,7 @@ This program will utilize 3 functions.
 2. A function to swap two adjacent values of elements inside the array - [swap](#swap) 
 3. A function to check if two adjacent elements need to be switched - [sort](#sort) 
 
-## printValues
+## printValues()
 
 This function will print out the array in its current state. Will be called upon multiple times throughout the main function. This function is designed to print out on a single line.
 ```
@@ -42,7 +42,7 @@ function printValues (array):
 	    
 ```
 
-## swap
+## swap()
 
 This function will swap the positions of two adjacent elements. Before conducting the swap, a temporary variable is needed in order to hold the value of an element as it is swapped. Pointers and pass by reference will be necessary at this step. A pass by reference is used since the values inside the array will need to be modified. 
 
@@ -54,7 +54,7 @@ fuction swap (integer num1, integer num2):
 	give num2 the temp integer
 ```
 
-## sort
+## sort()
 
 To sort the array, a compare is conducted, then a swap is performed if conditions are met. Here, this function checks if a value is greater than the adjacent value to its right. If this condition is met, a swap is performed. This function will continue to loop until the entire array has been sorted.
 
