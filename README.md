@@ -2,8 +2,7 @@
 
 **What is Bubble Sort?**
 
-Bubble sort is a sorting algorithim where the largest values will "bubble" to the top. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort.
-
+Bubble sort is a sorting algorithim where the largest values will "bubble" to the top. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort. This program will utilize pointers in order to pass by reference 
 # Table of Contents
 
 We will need 3 functions:
@@ -12,20 +11,30 @@ We will need 3 functions:
 |----------|-------------|
 | [printValues](#values) | Prints out array at each step |
 | [sort](#sort) | Compares two values, swaps if conditions satisfy  |
+| [swap](#swap) | Swap the values  |
 | [main](#main) | Executes all latter functions |
+
+
 
 ## printValues
 
-```
-constant MAX is the max lenght of array
-function printValues(array):
-    
+
 ```
 
+constant MAX is the max length of array
+function printValues (array):
+	create integer variable i
+	print out "[" 
+	for i from zero to MAX:
+		print array[i]
+	print "]"
+	    
+```
 
 ## sort
 
 ```
+
 constant MAX is max length of array
 function sort (array):
     create integer variables i and j
@@ -34,5 +43,15 @@ function sort (array):
             if array[j] > array[j+1]:
                 swap array[j] with array[j+1]
                 printArray(array)
+
 ```
+
+## swap
+
+```
+
+```
+
+
+## main 
 
