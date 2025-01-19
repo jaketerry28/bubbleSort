@@ -1,20 +1,31 @@
 # Bubble Sort Algorithm
 
-**What is Bubble Sort?**
-
-Bubble sort is a sorting algorithim where the largest values will "bubble" to the top. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort. This program will utilize pointers in order to pass by reference 
-# Table of Contents
-
-We will need 3 functions:
+## Table of Contents
 
 | Function | Description |
 |----------|-------------|
-| [printValues](#values) | Prints out array at each step |
-| [sort](#sort) | Compares two values, swaps if conditions satisfy  |
-| [swap](#swap) | Swap the values  |
-| [main](#main) | Executes all latter functions |
+| [Overview](#overview)| Objectives and plan |
+| [printValues](#values) | Prints out array when called |
+| [swap](#swap) | Swap two adjacent values |
+| [sort](#sort) | Compares two values, calls swap function if needed  |
 
+## Overview
 
+**Objective**
+
+Given an array of 9 integers, sort the array using a "bubble sort" algorithm.
+
+**What is Bubble Sort?**
+
+Bubble sort is a sorting algorithm where the largest values will "bubble" to top (or right side) of an array when executed. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort. This program will utilize pointers, where we will pass-by-reference to manipulate elements inside of the array.
+
+**Plan**
+
+This program will utilize 3 functions.
+
+1. A function to print the array.
+2. A function to swap two adjacent values of elements inside the array.
+3. A function to check if two adjacent elements need to be switched. 
 
 ## printValues
 
@@ -52,6 +63,4 @@ function sort (array):
 
 ```
 
-
-## main 
 
