@@ -29,7 +29,7 @@ This program will utilize 3 functions.
 
 ## printValues
 
-This function will print out the array in its current state. Will be called upon multiple times throught the main function. This function is designed to print out on a single line.
+This function will print out the array in its current state. Will be called upon multiple times throughout the main function. This function is designed to print out on a single line.
 ```
 
 constant MAX is the max length of array
