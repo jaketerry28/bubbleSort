@@ -17,7 +17,7 @@ Given an array of 9 integers, sort the array using a "bubble sort" algorithm.
 
 **What is Bubble Sort?**
 
-Bubble sort is a sorting algorithm where the largest values will "bubble" to top (or right side) of an array when executed. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort. This program will utilize pointers, where we will pass-by-reference to manipulate elements inside of the array.
+Bubble sort is a sorting algorithm where the largest values will "bubble" to top (or right side) of an array when executed. This algorithim repeatly goes through a list, comparing adjacent values, then swapping them if they are out of order until completion of the sort. This program will utilize pointers, where pass-by-reference is used to manipulate elements inside of the array.
 
 **Plan**
 
